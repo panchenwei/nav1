@@ -1,0 +1,77 @@
+[0.776s] Invoking command in '/root/nav_1/build/teb_local_planner': AMENT_PREFIX_PATH=/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/nav_1/src/teb_local_planner -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/teb_local_planner
+[0.853s] -- The C compiler identification is GNU 11.4.0
+[1.829s] -- The CXX compiler identification is GNU 11.4.0
+[2.389s] -- Detecting C compiler ABI info
+[2.647s] -- Detecting C compiler ABI info - done
+[2.651s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.652s] -- Detecting C compile features
+[2.652s] -- Detecting C compile features - done
+[2.653s] -- Detecting CXX compiler ABI info
+[2.744s] -- Detecting CXX compiler ABI info - done
+[2.748s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.749s] -- Detecting CXX compile features
+[2.749s] -- Detecting CXX compile features - done
+[2.750s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.858s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.908s] -- Found costmap_converter: 0.1.2 (/root/nav_1/install/costmap_converter/share/costmap_converter/cmake)
+[3.230s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.233s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.238s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.251s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.333s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.335s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.400s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.348s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.172s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.177s] -- Looking for pthread.h
+[15.388s] -- Looking for pthread.h - found
+[15.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.478s] -- Found Threads: TRUE  
+[15.652s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.652s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.587s] -- Found dwb_critics: 1.1.16 (/opt/ros/humble/share/dwb_critics/cmake)
+[17.656s] -- Found teb_msgs: 0.0.1 (/root/nav_1/install/teb_msgs/share/teb_msgs/cmake)
+[17.667s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[17.669s] -- System: Linux-5.15.167.4-microsoft-standard-WSL2
+[17.669s] -- /opt/ros/humble/share/tinyxml2_vendor/cmake/Modules;/opt/ros/humble/share/eigen3_cmake_module/cmake/Modules;/opt/ros/humble/share/fastrtps_cmake_module/cmake/Modules;/root/nav_1/src/teb_local_planner/cmake_modules
+[18.040s] -- Found SuiteSparse
+[18.040s] -- Searching for g2o ...
+[18.041s] -- Found g2o headers in: /opt/ros/humble/include/g2o
+[18.041s] -- Found libg2o: /opt/ros/humble/lib/x86_64-linux-gnu/libg2o_csparse_extension.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_core.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_stuff.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam2d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_types_slam3d.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_cholmod.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_pcg.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_solver_csparse.so;/opt/ros/humble/lib/x86_64-linux-gnu/libg2o_incremental.so
+[18.046s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[18.797s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[18.835s] -- Configuring done
+[18.869s] -- Generating done
+[18.870s] -- Build files have been written to: /root/nav_1/build/teb_local_planner
+[18.879s] Invoked command in '/root/nav_1/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/nav_1/src/teb_local_planner -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/teb_local_planner
+[18.880s] Invoking command in '/root/nav_1/build/teb_local_planner': AMENT_PREFIX_PATH=/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/nav_1/build/teb_local_planner -- -j32 -l32
+[18.907s] [ 20%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o[0m
+[18.907s] [ 20%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o[0m
+[18.907s] [ 30%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o[0m
+[18.908s] [ 40%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o[0m
+[18.908s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o[0m
+[18.908s] [ 60%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o[0m
+[18.908s] [ 70%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o[0m
+[18.909s] [ 80%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o[0m
+[18.911s] [ 90%] [32mBuilding CXX object CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o[0m
+[28.492s] In file included from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:57[m[K,
+[28.500s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:334[m[K,
+[28.500s]                  from [01m[K/root/nav_1/src/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:42[m[K,
+[28.500s]                  from [01m[K/root/nav_1/src/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[28.500s] [01m[K/root/nav_1/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToPolygons::startWorker(rclcpp::GenericRate<std::chrono::_V2::system_clock>::SharedPtr, nav2_costmap_2d::Costmap2D*, bool)[m[K’:
+[28.503s] [01m[K/root/nav_1/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:197:41:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[28.504s]   197 |         RCLCPP_DEBUG(nh_->get_logger(), [01;35m[K"costmap_converter"[m[K, "Spinning up a thread for the CostmapToPolygons plugin");
+[28.504s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[28.508s] [01m[K/root/nav_1/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:[m[K In member function ‘[01m[Kvoid costmap_converter::BaseCostmapToDynamicObstacles::loadStaticCostmapConverterPlugin(const string&, rclcpp::Node::SharedPtr)[m[K’:
+[28.508s] [01m[K/root/nav_1/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:32:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[28.508s]   313 |       RCLCPP_INFO(getLogger(), [01;35m[K"CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles %s loaded."[m[K, plugin_name);
+[28.508s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.508s] In file included from [01m[K/root/nav_1/src/teb_local_planner/include/teb_local_planner/teb_local_planner_ros.h:68[m[K,
+[28.508s]                  from [01m[K/root/nav_1/src/teb_local_planner/src/teb_local_planner_ros.cpp:39[m[K:
+[28.510s] [01m[K/root/nav_1/install/costmap_converter/include/costmap_converter/costmap_converter_interface.h:313:119:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[28.510s]   313 |       RCLCPP_INFO(getLogger(), "CostmapToDynamicObstacles: underlying costmap conversion plugin for static obstacles [01;36m[K%s[m[K loaded.", plugin_name);
+[28.510s]       |                                                                                                                      [01;36m[K~^[m[K
+[28.510s]       |                                                                                                                       [01;36m[K|[m[K
+[28.510s]       |                                                                                                                       [01;36m[Kchar*[m[K

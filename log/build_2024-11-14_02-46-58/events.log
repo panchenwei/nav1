@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (-) JobUnselected: {'identifier': 'costmap_converter'}
+[0.000701] (-) JobUnselected: {'identifier': 'costmap_converter_msgs'}
+[0.000728] (-) JobUnselected: {'identifier': 'teb_local_planner'}
+[0.000752] (-) JobUnselected: {'identifier': 'teb_msgs'}
+[0.000779] (robot_navigation) JobQueued: {'identifier': 'robot_navigation', 'dependencies': OrderedDict([('costmap_converter_msgs', '/root/nav_1/install/costmap_converter_msgs'), ('costmap_converter', '/root/nav_1/install/costmap_converter'), ('teb_msgs', '/root/nav_1/install/teb_msgs'), ('teb_local_planner', '/root/nav_1/install/teb_local_planner')])}
+[0.000812] (robot_navigation) JobStarted: {'identifier': 'robot_navigation'}
+[0.101551] (-) TimerEvent: {}
+[0.205968] (-) TimerEvent: {}
+[0.314761] (-) TimerEvent: {}
+[0.415367] (-) TimerEvent: {}
+[0.523489] (-) TimerEvent: {}
+[0.624132] (-) TimerEvent: {}
+[0.732964] (-) TimerEvent: {}
+[0.841695] (-) TimerEvent: {}
+[0.950380] (-) TimerEvent: {}
+[1.059174] (-) TimerEvent: {}
+[1.160097] (-) TimerEvent: {}
+[1.263517] (robot_navigation) JobProgress: {'identifier': 'robot_navigation', 'progress': 'cmake'}
+[1.263950] (-) TimerEvent: {}
+[1.264612] (robot_navigation) JobProgress: {'identifier': 'robot_navigation', 'progress': 'build'}
+[1.265378] (robot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/nav_1/build/robot_navigation', '--', '-j32', '-l32'], 'cwd': '/root/nav_1/build/robot_navigation', 'env': OrderedDict([('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/nav_1/install/teb_local_planner/lib:/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/nav_1/install'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-996fc6a1-6beb-4a43-952a-86ec2dcaf0cf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/nav_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-B2GTLAN'), ('WSL_INTEROP', '/run/WSL/105555_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/nav_1/install/costmap_converter/bin:/opt/ros/humble/bin:/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/dell/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/py:/mnt/e/mingw64/bin:/mnt/e/OpenCV/build/x64/mingw/bin:/mnt/c/Users/dell/Desktop/:/mnt/c/Users/dell/AppData/Local/Microsoft/WindowsApps:/mnt/c/py:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.3/bin:/mnt/c/Users/dell/Desktop/Scripts/:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/f/idea/IntelliJ IDEA 2024.2.3/bin:/mnt/c/Users/dell/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/dell/Desktop/:/mnt/c/Users/dell/AppData/Local/Microsoft/WindowsApps:/mnt/e/vscode/Microsoft VS Code/bin:/mnt/c/py:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.3/bin:/mnt/c/Users/dell/Desktop/Scripts/:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/f/idea/IntelliJ IDEA 2024.2.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-23b6e1c2b0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/nav_1/build/robot_navigation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[1.298953] (robot_navigation) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/icp_localization.dir/src/icp_localization.cpp.o\x1b[0m\n'}
+[1.364197] (-) TimerEvent: {}
+[1.469661] (-) TimerEvent: {}
+[1.578293] (-) TimerEvent: {}
+[1.686919] (-) TimerEvent: {}
+[1.793356] (-) TimerEvent: {}
+[1.902124] (-) TimerEvent: {}
+[2.010883] (-) TimerEvent: {}
+[2.116167] (-) TimerEvent: {}
+[2.224821] (-) TimerEvent: {}
+[2.329903] (-) TimerEvent: {}
+[2.438681] (-) TimerEvent: {}
+[2.540257] (-) TimerEvent: {}
+[2.649021] (-) TimerEvent: {}
+[2.757876] (-) TimerEvent: {}
+[2.864738] (-) TimerEvent: {}
+[2.973378] (-) TimerEvent: {}
+[3.076508] (-) TimerEvent: {}
+[3.185209] (-) TimerEvent: {}
+[3.294117] (-) TimerEvent: {}
+[3.402943] (-) TimerEvent: {}
+[3.511828] (-) TimerEvent: {}
+[3.620641] (-) TimerEvent: {}
+[3.729319] (-) TimerEvent: {}
+[3.837998] (-) TimerEvent: {}
+[3.946685] (-) TimerEvent: {}
+[4.055360] (-) TimerEvent: {}
+[4.156016] (-) TimerEvent: {}
+[4.261739] (-) TimerEvent: {}
+[4.370491] (-) TimerEvent: {}
+[4.479148] (-) TimerEvent: {}
+[4.587798] (-) TimerEvent: {}
+[4.696133] (-) TimerEvent: {}
+[4.797019] (-) TimerEvent: {}
+[4.899517] (-) TimerEvent: {}
+[5.008209] (-) TimerEvent: {}
+[5.116881] (-) TimerEvent: {}
+[5.217556] (-) TimerEvent: {}
+[5.326339] (-) TimerEvent: {}
+[5.434565] (-) TimerEvent: {}
+[5.543392] (-) TimerEvent: {}
+[5.652188] (-) TimerEvent: {}
+[5.760861] (-) TimerEvent: {}
+[5.862026] (-) TimerEvent: {}
+[5.965633] (-) TimerEvent: {}
+[6.074404] (-) TimerEvent: {}
+[6.175028] (-) TimerEvent: {}
+[6.279817] (-) TimerEvent: {}
+[6.388526] (-) TimerEvent: {}
+[6.497039] (-) TimerEvent: {}
+[6.605869] (-) TimerEvent: {}
+[6.714704] (-) TimerEvent: {}
+[6.823345] (-) TimerEvent: {}
+[6.928095] (-) TimerEvent: {}
+[7.036766] (-) TimerEvent: {}
+[7.145422] (-) TimerEvent: {}
+[7.250282] (-) TimerEvent: {}
+[7.358927] (-) TimerEvent: {}
+[7.467578] (-) TimerEvent: {}
+[7.576087] (-) TimerEvent: {}
+[7.684813] (-) TimerEvent: {}
+[7.793619] (-) TimerEvent: {}
+[7.902380] (-) TimerEvent: {}
+[8.011269] (-) TimerEvent: {}
+[8.120011] (-) TimerEvent: {}
+[8.220947] (-) TimerEvent: {}
+[8.329610] (-) TimerEvent: {}
+[8.438261] (-) TimerEvent: {}
+[8.546907] (-) TimerEvent: {}
+[8.654341] (-) TimerEvent: {}
+[8.763151] (-) TimerEvent: {}
+[8.871932] (-) TimerEvent: {}
+[8.980702] (-) TimerEvent: {}
+[9.089342] (-) TimerEvent: {}
+[9.190371] (-) TimerEvent: {}
+[9.295510] (-) TimerEvent: {}
+[9.404153] (-) TimerEvent: {}
+[9.512835] (-) TimerEvent: {}
+[9.621557] (-) TimerEvent: {}
+[9.730267] (-) TimerEvent: {}
+[9.831386] (-) TimerEvent: {}
+[9.938312] (-) TimerEvent: {}
+[10.047010] (-) TimerEvent: {}
+[10.155676] (-) TimerEvent: {}
+[10.260436] (-) TimerEvent: {}
+[10.369129] (-) TimerEvent: {}
+[10.477846] (-) TimerEvent: {}
+[10.586490] (-) TimerEvent: {}
+[10.695200] (-) TimerEvent: {}
+[10.803247] (-) TimerEvent: {}
+[10.903918] (-) TimerEvent: {}
+[11.007829] (-) TimerEvent: {}
+[11.116599] (-) TimerEvent: {}
+[11.217273] (-) TimerEvent: {}
+[11.325626] (-) TimerEvent: {}
+[11.431352] (-) TimerEvent: {}
+[11.540224] (-) TimerEvent: {}
+[11.648899] (-) TimerEvent: {}
+[11.757541] (-) TimerEvent: {}
+[11.866011] (-) TimerEvent: {}
+[11.974814] (-) TimerEvent: {}
+[12.083471] (-) TimerEvent: {}
+[12.192144] (-) TimerEvent: {}
+[12.300792] (-) TimerEvent: {}
+[12.409443] (-) TimerEvent: {}
+[12.518120] (-) TimerEvent: {}
+[12.626850] (-) TimerEvent: {}
+[12.735544] (-) TimerEvent: {}
+[12.844377] (-) TimerEvent: {}
+[12.952482] (-) TimerEvent: {}
+[13.061163] (-) TimerEvent: {}
+[13.169821] (-) TimerEvent: {}
+[13.278493] (-) TimerEvent: {}
+[13.387296] (-) TimerEvent: {}
+[13.496003] (-) TimerEvent: {}
+[13.604810] (-) TimerEvent: {}
+[13.713452] (-) TimerEvent: {}
+[13.822095] (-) TimerEvent: {}
+[13.930727] (-) TimerEvent: {}
+[14.038406] (-) TimerEvent: {}
+[14.143890] (-) TimerEvent: {}
+[14.244434] (-) TimerEvent: {}
+[14.352493] (-) TimerEvent: {}
+[14.461256] (-) TimerEvent: {}
+[14.570037] (-) TimerEvent: {}
+[14.678699] (-) TimerEvent: {}
+[14.787323] (-) TimerEvent: {}
+[14.889899] (-) TimerEvent: {}
+[14.998742] (-) TimerEvent: {}
+[15.102273] (-) TimerEvent: {}
+[15.202792] (-) TimerEvent: {}
+[15.311486] (-) TimerEvent: {}
+[15.413434] (-) TimerEvent: {}
+[15.517758] (-) TimerEvent: {}
+[15.626314] (-) TimerEvent: {}
+[15.731900] (-) TimerEvent: {}
+[15.832438] (-) TimerEvent: {}
+[15.941195] (-) TimerEvent: {}
+[16.044640] (-) TimerEvent: {}
+[16.146517] (-) TimerEvent: {}
+[16.255285] (-) TimerEvent: {}
+[16.361904] (-) TimerEvent: {}
+[16.465862] (-) TimerEvent: {}
+[16.522156] (robot_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable icp_localization\x1b[0m\n'}
+[16.566042] (-) TimerEvent: {}
+[16.674835] (-) TimerEvent: {}
+[16.779176] (-) TimerEvent: {}
+[16.887300] (-) TimerEvent: {}
+[16.996085] (-) TimerEvent: {}
+[17.100609] (-) TimerEvent: {}
+[17.209291] (-) TimerEvent: {}
+[17.310563] (-) TimerEvent: {}
+[17.419315] (-) TimerEvent: {}
+[17.527647] (-) TimerEvent: {}
+[17.632883] (-) TimerEvent: {}
+[17.741775] (-) TimerEvent: {}
+[17.843385] (-) TimerEvent: {}
+[17.945501] (-) TimerEvent: {}
+[18.047444] (-) TimerEvent: {}
+[18.148970] (-) TimerEvent: {}
+[18.257529] (-) TimerEvent: {}
+[18.366171] (-) TimerEvent: {}
+[18.472166] (-) TimerEvent: {}
+[18.580911] (-) TimerEvent: {}
+[18.682173] (-) TimerEvent: {}
+[18.790813] (-) TimerEvent: {}
+[18.899537] (-) TimerEvent: {}
+[19.008320] (-) TimerEvent: {}
+[19.117375] (-) TimerEvent: {}
+[19.221172] (-) TimerEvent: {}
+[19.329239] (-) TimerEvent: {}
+[19.430353] (-) TimerEvent: {}
+[19.539151] (-) TimerEvent: {}
+[19.648122] (-) TimerEvent: {}
+[19.754386] (-) TimerEvent: {}
+[19.854160] (robot_navigation) StdoutLine: {'line': b'[100%] Built target icp_localization\n'}
+[19.854580] (-) TimerEvent: {}
+[19.861325] (robot_navigation) CommandEnded: {'returncode': 0}
+[19.877907] (robot_navigation) JobProgress: {'identifier': 'robot_navigation', 'progress': 'install'}
+[19.884047] (robot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/nav_1/build/robot_navigation'], 'cwd': '/root/nav_1/build/robot_navigation', 'env': OrderedDict([('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/nav_1/install/teb_local_planner/lib:/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/nav_1/install'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-996fc6a1-6beb-4a43-952a-86ec2dcaf0cf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/nav_1/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-B2GTLAN'), ('WSL_INTEROP', '/run/WSL/105555_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/nav_1/install/costmap_converter/bin:/opt/ros/humble/bin:/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/dell/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/py:/mnt/e/mingw64/bin:/mnt/e/OpenCV/build/x64/mingw/bin:/mnt/c/Users/dell/Desktop/:/mnt/c/Users/dell/AppData/Local/Microsoft/WindowsApps:/mnt/c/py:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.3/bin:/mnt/c/Users/dell/Desktop/Scripts/:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/f/idea/IntelliJ IDEA 2024.2.3/bin:/mnt/c/Users/dell/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/dell/Desktop/:/mnt/c/Users/dell/AppData/Local/Microsoft/WindowsApps:/mnt/e/vscode/Microsoft VS Code/bin:/mnt/c/py:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.3/bin:/mnt/c/Users/dell/Desktop/Scripts/:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/f/idea/IntelliJ IDEA 2024.2.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-23b6e1c2b0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/nav_1/build/robot_navigation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[19.888080] (robot_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.888349] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/lib/robot_navigation/icp_localization\n'}
+[19.892253] (robot_navigation) StdoutLine: {'line': b'-- Set runtime path of "/root/nav_1/install/robot_navigation/lib/robot_navigation/icp_localization" to ""\n'}
+[19.892458] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/launch\n'}
+[19.892546] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/launch/bringup_launch.py\n'}
+[19.893306] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/launch/icp_launch.py\n'}
+[19.893386] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config\n'}
+[19.893419] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/icp_params.yaml\n'}
+[19.894109] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/map.yaml\n'}
+[19.894161] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/map.pgm\n'}
+[19.894715] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/nav2_params.yaml\n'}
+[19.894973] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation\n'}
+[19.895068] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation\n'}
+[19.895298] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh\n'}
+[19.895469] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv\n'}
+[19.895565] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/path.sh\n'}
+[19.895652] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/path.dsv\n'}
+[19.895738] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.bash\n'}
+[19.895890] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.sh\n'}
+[19.895983] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.zsh\n'}
+[19.896069] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.dsv\n'}
+[19.896155] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/package.dsv\n'}
+[19.896238] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation\n'}
+[19.896492] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake\n'}
+[19.896568] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake\n'}
+[19.896601] (robot_navigation) StdoutLine: {'line': b'-- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/package.xml\n'}
+[19.897530] (robot_navigation) CommandEnded: {'returncode': 0}
+[19.954812] (-) TimerEvent: {}
+[19.967009] (robot_navigation) JobEnded: {'identifier': 'robot_navigation', 'rc': 0}
+[19.968050] (-) EventReactorShutdown: {}

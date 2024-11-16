@@ -1,0 +1,95 @@
+[1.215s] Invoking command in '/root/nav_1/build/robot_navigation': AMENT_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_local_planner/lib:/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/nav_1/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/robot_navigation
+[2.048s] -- The C compiler identification is GNU 11.4.0
+[3.312s] -- The CXX compiler identification is GNU 11.4.0
+[4.701s] -- Detecting C compiler ABI info
+[4.966s] -- Detecting C compiler ABI info - done
+[4.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.970s] -- Detecting C compile features
+[4.971s] -- Detecting C compile features - done
+[4.974s] -- Detecting CXX compiler ABI info
+[5.164s] -- Detecting CXX compiler ABI info - done
+[5.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.169s] -- Detecting CXX compile features
+[5.169s] -- Detecting CXX compile features - done
+[5.182s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.345s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.519s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[5.747s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.753s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.766s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.804s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.860s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.864s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.629s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.507s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.371s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.383s] -- Looking for pthread.h
+[16.634s] -- Looking for pthread.h - found
+[16.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[16.846s] -- Found Threads: TRUE  
+[16.919s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[16.956s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[17.003s] -- Checking for module 'eigen3'
+[17.011s] --   Found eigen3, version 3.4.0
+[17.038s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[17.038s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[18.782s] -- Checking for module 'flann'
+[18.799s] --   Found flann, version 1.9.1
+[19.816s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[19.816s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[32.811s] -- Checking for module 'libusb-1.0'
+[32.818s] --   Found libusb-1.0, version 1.0.25
+[33.092s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[33.102s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[33.322s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[35.837s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[35.841s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[35.844s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[39.958s] -- Found Qhull version 8.0.2
+[43.159s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[46.807s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[46.808s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[46.808s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[46.809s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[46.809s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[46.810s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[46.810s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[46.810s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[46.811s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[46.812s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[46.812s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[46.813s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[46.813s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[46.827s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[46.828s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[46.828s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[46.829s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[46.830s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[46.830s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[46.831s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[46.831s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[46.831s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[46.832s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[46.832s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[46.833s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[46.889s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[46.891s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[46.891s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[46.994s] -- Found nav2_bringup: 1.1.16 (/opt/ros/humble/share/nav2_bringup/cmake)
+[46.995s] -- Found teb_local_planner: 0.9.1 (/root/nav_1/install/teb_local_planner/share/teb_local_planner/cmake)
+[49.930s] -- Configuring done
+[50.089s] -- Generating done
+[50.091s] -- Build files have been written to: /root/nav_1/build/robot_navigation
+[50.107s] Invoked command in '/root/nav_1/build/robot_navigation' returned '0': AMENT_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_local_planner/lib:/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/nav_1/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/robot_navigation
+[50.109s] Invoking command in '/root/nav_1/build/robot_navigation': AMENT_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_local_planner/lib:/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/nav_1/build/robot_navigation -- -j32 -l32
+[50.142s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/icp_localization.cpp.o[0m
+[50.169s] [100%] [32m[1mLinking CXX executable icp_localization[0m
+[112.447s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[112.448s] (.text+0x1b): undefined reference to `main'
+[112.452s] collect2: error: ld returned 1 exit status
+[112.453s] gmake[2]: *** [CMakeFiles/icp_localization.dir/build.make:713: icp_localization] Error 1
+[112.454s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/icp_localization.dir/all] Error 2
+[112.454s] gmake: *** [Makefile:146: all] Error 2
+[112.458s] Invoked command in '/root/nav_1/build/robot_navigation' returned '2': AMENT_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/nav_1/install/teb_local_planner:/root/nav_1/install/teb_msgs:/root/nav_1/install/costmap_converter:/root/nav_1/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/nav_1/install/teb_local_planner/lib:/root/nav_1/install/teb_msgs/lib:/root/nav_1/install/costmap_converter/lib:/root/nav_1/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/nav_1/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/nav_1/install/teb_msgs/local/lib/python3.10/dist-packages:/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/nav_1/build/robot_navigation -- -j32 -l32

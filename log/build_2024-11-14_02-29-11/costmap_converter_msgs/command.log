@@ -1,0 +1,6 @@
+Invoking command in '/root/nav_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/nav_1/src/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/costmap_converter_msgs
+Invoked command in '/root/nav_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/nav_1/src/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/costmap_converter_msgs
+Invoking command in '/root/nav_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/nav_1/build/costmap_converter_msgs -- -j32 -l32
+Invoked command in '/root/nav_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/nav_1/build/costmap_converter_msgs -- -j32 -l32
+Invoking command in '/root/nav_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/nav_1/build/costmap_converter_msgs
+Invoked command in '/root/nav_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/nav_1/build/costmap_converter_msgs

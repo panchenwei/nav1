@@ -1,0 +1,33 @@
+[1.267s] Invoking command in '/root/nav_1/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/nav_1/build/robot_navigation -- -j32 -l32
+[1.298s] [ 50%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/icp_localization.cpp.o[0m
+[16.521s] [100%] [32m[1mLinking CXX executable icp_localization[0m
+[19.853s] [100%] Built target icp_localization
+[19.861s] Invoked command in '/root/nav_1/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/nav_1/build/robot_navigation -- -j32 -l32
+[19.884s] Invoking command in '/root/nav_1/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/nav_1/build/robot_navigation
+[19.887s] -- Install configuration: ""
+[19.888s] -- Installing: /root/nav_1/install/robot_navigation/lib/robot_navigation/icp_localization
+[19.892s] -- Set runtime path of "/root/nav_1/install/robot_navigation/lib/robot_navigation/icp_localization" to ""
+[19.892s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/launch
+[19.892s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/launch/bringup_launch.py
+[19.893s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/launch/icp_launch.py
+[19.893s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config
+[19.893s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/icp_params.yaml
+[19.893s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/map.yaml
+[19.893s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/map.pgm
+[19.894s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/config/nav2_params.yaml
+[19.894s] -- Installing: /root/nav_1/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[19.894s] -- Installing: /root/nav_1/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/path.sh
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.bash
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.sh
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/package.dsv
+[19.895s] -- Installing: /root/nav_1/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[19.896s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[19.896s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[19.896s] -- Installing: /root/nav_1/install/robot_navigation/share/robot_navigation/package.xml
+[19.897s] Invoked command in '/root/nav_1/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/nav_1/build/robot_navigation

@@ -1,0 +1,254 @@
+[0.024s] Invoking command in '/root/nav_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/nav_1/src/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/costmap_converter_msgs
+[1.316s] -- The C compiler identification is GNU 11.4.0
+[2.723s] -- The CXX compiler identification is GNU 11.4.0
+[3.441s] -- Detecting C compiler ABI info
+[3.690s] -- Detecting C compiler ABI info - done
+[3.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.694s] -- Detecting C compile features
+[3.694s] -- Detecting C compile features - done
+[3.696s] -- Detecting CXX compiler ABI info
+[3.789s] -- Detecting CXX compiler ABI info - done
+[3.793s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.793s] -- Detecting CXX compile features
+[3.794s] -- Detecting CXX compile features - done
+[3.795s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.876s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.921s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[4.570s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.573s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.577s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.583s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.599s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.617s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.805s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.284s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.287s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.136s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.137s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.137s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.148s] -- Found PythonExtra: .so  
+[6.256s] -- Configuring done
+[6.280s] -- Generating done
+[6.281s] -- Build files have been written to: /root/nav_1/build/costmap_converter_msgs
+[6.289s] Invoked command in '/root/nav_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/nav_1/src/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/root/nav_1/install/costmap_converter_msgs
+[6.290s] Invoking command in '/root/nav_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/nav_1/build/costmap_converter_msgs -- -j32 -l32
+[6.309s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.315s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.319s] [  5%] Built target ament_cmake_python_copy_costmap_converter_msgs
+[6.462s] running egg_info
+[6.462s] creating costmap_converter_msgs.egg-info
+[6.462s] writing costmap_converter_msgs.egg-info/PKG-INFO
+[6.463s] writing dependency_links to costmap_converter_msgs.egg-info/dependency_links.txt
+[6.463s] writing top-level names to costmap_converter_msgs.egg-info/top_level.txt
+[6.463s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.470s] reading manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.471s] writing manifest file 'costmap_converter_msgs.egg-info/SOURCES.txt'
+[6.485s] [  5%] Built target ament_cmake_python_build_costmap_converter_msgs_egg
+[6.525s] [  5%] Built target costmap_converter_msgs__cpp
+[6.532s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.533s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.534s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.544s] [ 15%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c.o[0m
+[6.545s] [ 17%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_c.dir/rosidl_generator_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c.o[0m
+[6.718s] [ 20%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_generator_c.so[0m
+[6.723s] [ 25%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[6.723s] [ 25%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[6.729s] [ 30%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp.o[0m
+[6.729s] [ 30%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp.o[0m
+[6.769s] [ 33%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_msg__type_support.cpp.o[0m
+[6.769s] [ 35%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costmap_converter_msgs/msg/detail/dds_fastrtps/obstacle_array_msg__type_support.cpp.o[0m
+[6.878s] [ 35%] Built target costmap_converter_msgs__rosidl_generator_c
+[6.885s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.885s] [ 41%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.886s] [ 43%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.995s] [ 46%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_cpp.so[0m
+[7.102s] [ 48%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_msg__type_support.cpp.o[0m
+[7.102s] [ 51%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/costmap_converter_msgs/msg/obstacle_array_msg__type_support.cpp.o[0m
+[7.122s] [ 53%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_c.so[0m
+[7.133s] [ 56%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.137s] [ 61%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support_c.cpp.o[0m
+[7.137s] [ 61%] [32mBuilding CXX object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support_c.cpp.o[0m
+[7.145s] [ 61%] Built target costmap_converter_msgs__rosidl_typesupport_cpp
+[7.148s] [ 64%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c.o[0m
+[7.150s] [ 66%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c.o[0m
+[7.157s] [ 69%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.188s] [ 71%] [32m[1mLinking C shared library libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.274s] [ 71%] Built target costmap_converter_msgs__rosidl_typesupport_c
+[7.316s] [ 74%] [32m[1mLinking CXX shared library libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.344s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_cpp
+[7.365s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c
+[7.382s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_cpp
+[7.508s] [ 74%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c
+[7.518s] [ 74%] Built target costmap_converter_msgs
+[7.529s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.814s] [ 76%] Built target costmap_converter_msgs__py
+[7.824s] [ 82%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_py.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_msg_s.c.o[0m
+[7.824s] [ 82%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_generator_py.dir/rosidl_generator_py/costmap_converter_msgs/msg/_obstacle_array_msg_s.c.o[0m
+[7.936s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so[0m
+[8.114s] [ 84%] Built target costmap_converter_msgs__rosidl_generator_py
+[8.126s] [ 92%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.126s] [ 92%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.126s] [ 92%] [32mBuilding C object CMakeFiles/costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.177s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.177s] [100%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.177s] [100%] [32m[1mLinking C shared library rosidl_generator_py/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.331s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_c__pyext
+[8.331s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_introspection_c__pyext
+[8.331s] [100%] Built target costmap_converter_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.338s] Invoked command in '/root/nav_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/nav_1/build/costmap_converter_msgs -- -j32 -l32
+[8.384s] Invoking command in '/root/nav_1/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/nav_1/build/costmap_converter_msgs
+[8.388s] -- Install configuration: ""
+[8.388s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/ament_index/resource_index/rosidl_interfaces/costmap_converter_msgs
+[8.388s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[8.388s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[8.388s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.h
+[8.388s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__functions.c
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__functions.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__functions.c
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.389s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.h
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.sh
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/library_path.dsv
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so
+[8.390s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_c.so" to ""
+[8.390s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[8.390s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[8.390s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_c.h
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_c.h
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.390s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so
+[8.390s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.390s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[8.391s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_msg.hpp
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/obstacle_array_msg.hpp
+[8.391s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__struct.hpp
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__builder.hpp
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__traits.hpp
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__struct.hpp
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__traits.hpp
+[8.391s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__builder.hpp
+[8.391s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[8.392s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[8.392s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[8.392s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/dds_fastrtps
+[8.392s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.392s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[8.392s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.392s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.392s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.392s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[8.392s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[8.392s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_c.h
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.c
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.c
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_c.h
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so
+[8.393s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so
+[8.393s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_c.so" to ""
+[8.393s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs
+[8.393s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg
+[8.393s] -- Up-to-date: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail
+[8.393s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__rosidl_typesupport_introspection_cpp.hpp
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_array_msg__type_support.cpp
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/include/costmap_converter_msgs/costmap_converter_msgs/msg/detail/obstacle_msg__type_support.cpp
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so
+[8.394s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so
+[8.394s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_typesupport_cpp.so" to ""
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.sh
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/pythonpath.dsv
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info
+[8.394s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/PKG-INFO
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/dependency_links.txt
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/top_level.txt
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs-0.1.2-py3.10.egg-info/SOURCES.txt
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/libcostmap_converter_msgs__rosidl_generator_py.so
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg_s.c
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg_s.c
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.395s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/_costmap_converter_msgs_s.ep.rosidl_typesupport_c.c
+[8.414s] Listing '/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs'...
+[8.414s] Compiling '/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/__init__.py'...
+[8.414s] Listing '/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg'...
+[8.414s] Compiling '/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/__init__.py'...
+[8.414s] Compiling '/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_array_msg.py'...
+[8.414s] Compiling '/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/msg/_obstacle_msg.py'...
+[8.416s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.416s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.416s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.416s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.417s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/local/lib/python3.10/dist-packages/costmap_converter_msgs/costmap_converter_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so
+[8.417s] -- Set runtime path of "/root/nav_1/install/costmap_converter_msgs/lib/libcostmap_converter_msgs__rosidl_generator_py.so" to ""
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.idl
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.idl
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleMsg.msg
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/msg/ObstacleArrayMsg.msg
+[8.417s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/ament_index/resource_index/package_run_dependencies/costmap_converter_msgs
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/ament_index/resource_index/parent_prefix_path/costmap_converter_msgs
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.sh
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/ament_prefix_path.dsv
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.sh
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/environment/path.dsv
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.bash
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.sh
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.zsh
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/local_setup.dsv
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/ament_index/resource_index/packages/costmap_converter_msgs
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport.cmake
+[8.418s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_cppExport.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.419s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/export_costmap_converter_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/cmake/costmap_converter_msgsConfig-version.cmake
+[8.420s] -- Installing: /root/nav_1/install/costmap_converter_msgs/share/costmap_converter_msgs/package.xml
+[8.422s] Invoked command in '/root/nav_1/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/nav_1/build/costmap_converter_msgs

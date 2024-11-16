@@ -1,0 +1,8 @@
+{
+  "package_name": "teb_msgs",
+  "non_idl_tuples": [
+    "/root/nav_1/src/teb_msgs:msg/FeedbackMsg.msg",
+    "/root/nav_1/src/teb_msgs:msg/TrajectoryMsg.msg",
+    "/root/nav_1/src/teb_msgs:msg/TrajectoryPointMsg.msg"
+  ]
+}

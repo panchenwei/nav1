@@ -1,0 +1,36 @@
+[0.033s] Invoking command in '/root/robot_navigation/src/build/costmap_converter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/robot_navigation/src/costmap_converter -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[2.528s] -- The CXX compiler identification is GNU 11.4.0
+[3.012s] -- Detecting C compiler ABI info
+[3.227s] -- Detecting C compiler ABI info - done
+[3.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.232s] -- Detecting C compile features
+[3.235s] -- Detecting C compile features - done
+[3.238s] -- Detecting CXX compiler ABI info
+[3.449s] -- Detecting CXX compiler ABI info - done
+[3.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.453s] -- Detecting CXX compile features
+[3.453s] -- Detecting CXX compile features - done
+[3.465s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.569s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.649s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[5.640s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[5.640s]   By not providing "Findcostmap_converter_msgs.cmake" in CMAKE_MODULE_PATH
+[5.640s]   this project has asked CMake to find a package configuration file provided
+[5.640s]   by "costmap_converter_msgs", but CMake did not find one.
+[5.640s] 
+[5.640s]   Could not find a package configuration file provided by
+[5.640s]   "costmap_converter_msgs" with any of the following names:
+[5.640s] 
+[5.640s]     costmap_converter_msgsConfig.cmake
+[5.640s]     costmap_converter_msgs-config.cmake
+[5.640s] 
+[5.641s]   Add the installation prefix of "costmap_converter_msgs" to
+[5.641s]   CMAKE_PREFIX_PATH or set "costmap_converter_msgs_DIR" to a directory
+[5.641s]   containing one of the above files.  If "costmap_converter_msgs" provides a
+[5.641s]   separate development package or SDK, be sure it has been installed.
+[5.641s] 
+[5.641s] [0m
+[5.641s] -- Configuring incomplete, errors occurred!
+[5.641s] See also "/root/robot_navigation/src/build/costmap_converter/CMakeFiles/CMakeOutput.log".
+[5.644s] Invoked command in '/root/robot_navigation/src/build/costmap_converter' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/robot_navigation/src/costmap_converter -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter

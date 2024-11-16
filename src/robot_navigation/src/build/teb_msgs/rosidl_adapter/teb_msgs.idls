@@ -1,0 +1,3 @@
+/root/robot_navigation/src/build/teb_msgs/rosidl_adapter/teb_msgs:msg/FeedbackMsg.idl
+/root/robot_navigation/src/build/teb_msgs/rosidl_adapter/teb_msgs:msg/TrajectoryMsg.idl
+/root/robot_navigation/src/build/teb_msgs/rosidl_adapter/teb_msgs:msg/TrajectoryPointMsg.idl

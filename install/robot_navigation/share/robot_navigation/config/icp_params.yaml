@@ -1,0 +1,5 @@
+icp:
+  max_iterations: 50
+  transformation_epsilon: 1e-8
+  euclidean_fitness_epsilon: 1
+  max_correspondence_distance: 2.0

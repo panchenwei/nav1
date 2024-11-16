@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000455] (costmap_converter) JobQueued: {'identifier': 'costmap_converter', 'dependencies': OrderedDict()}
+[0.000514] (teb_local_planner) JobQueued: {'identifier': 'teb_local_planner', 'dependencies': OrderedDict([('costmap_converter', '/root/robot_navigation/src/install/costmap_converter')])}
+[0.000530] (costmap_converter) JobStarted: {'identifier': 'costmap_converter'}
+[0.032933] (costmap_converter) JobProgress: {'identifier': 'costmap_converter', 'progress': 'cmake'}
+[0.033276] (costmap_converter) Command: {'cmd': ['/usr/bin/cmake', '/root/robot_navigation/src/costmap_converter', '-DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter'], 'cwd': '/root/robot_navigation/src/build/costmap_converter', 'env': OrderedDict([('USER', 'root'), ('SSH_AGENT_PID', '65797'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/robot_navigation'), ('TERM_PROGRAM_VERSION', '1.95.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-aa55d9ed-fd81-4ded-96fd-8250d87c2d74.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'DESKTOP-B2GTLAN'), ('WSL_INTEROP', '/run/WSL/487_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/root/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/dell/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/py:/mnt/e/mingw64/bin:/mnt/e/OpenCV/build/x64/mingw/bin:/mnt/c/Users/dell/Desktop/:/mnt/c/Users/dell/AppData/Local/Microsoft/WindowsApps:/mnt/c/py:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.3/bin:/mnt/c/Users/dell/Desktop/Scripts/:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/f/idea/IntelliJ IDEA 2024.2.3/bin:/mnt/c/Users/dell/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/dell/Desktop/:/mnt/c/Users/dell/AppData/Local/Microsoft/WindowsApps:/mnt/e/vscode/Microsoft VS Code/bin:/mnt/c/py:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.2.3/bin:/mnt/c/Users/dell/Desktop/Scripts/:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/f/idea/IntelliJ IDEA 2024.2.3/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-23b6e1c2b0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXhEk2X8/agent.65796'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/robot_navigation/src/build/costmap_converter'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.104803] (-) TimerEvent: {}
+[0.207838] (-) TimerEvent: {}
+[0.311816] (-) TimerEvent: {}
+[0.413657] (-) TimerEvent: {}
+[0.430242] (costmap_converter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.520873] (-) TimerEvent: {}
+[0.629761] (-) TimerEvent: {}
+[0.737195] (-) TimerEvent: {}
+[0.842756] (-) TimerEvent: {}
+[0.951412] (-) TimerEvent: {}
+[1.060085] (-) TimerEvent: {}
+[1.160607] (-) TimerEvent: {}
+[1.261214] (-) TimerEvent: {}
+[1.362711] (-) TimerEvent: {}
+[1.468610] (-) TimerEvent: {}
+[1.576686] (-) TimerEvent: {}
+[1.685550] (-) TimerEvent: {}
+[1.791360] (-) TimerEvent: {}
+[1.900138] (-) TimerEvent: {}
+[2.008962] (-) TimerEvent: {}
+[2.117723] (-) TimerEvent: {}
+[2.226353] (-) TimerEvent: {}
+[2.335076] (-) TimerEvent: {}
+[2.437491] (-) TimerEvent: {}
+[2.528849] (costmap_converter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.538294] (-) TimerEvent: {}
+[2.646200] (-) TimerEvent: {}
+[2.754847] (-) TimerEvent: {}
+[2.863498] (-) TimerEvent: {}
+[2.972133] (-) TimerEvent: {}
+[3.012736] (costmap_converter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.077203] (-) TimerEvent: {}
+[3.185951] (-) TimerEvent: {}
+[3.227535] (costmap_converter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.231408] (costmap_converter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.232226] (costmap_converter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.234998] (costmap_converter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.238336] (costmap_converter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.290033] (-) TimerEvent: {}
+[3.398715] (-) TimerEvent: {}
+[3.449133] (costmap_converter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.453238] (costmap_converter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.453414] (costmap_converter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.453621] (costmap_converter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.465473] (costmap_converter) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.501566] (-) TimerEvent: {}
+[3.569801] (costmap_converter) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.604489] (-) TimerEvent: {}
+[3.649251] (costmap_converter) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[3.709210] (-) TimerEvent: {}
+[3.811590] (-) TimerEvent: {}
+[3.920261] (-) TimerEvent: {}
+[4.028901] (-) TimerEvent: {}
+[4.137563] (-) TimerEvent: {}
+[4.246218] (-) TimerEvent: {}
+[4.354905] (-) TimerEvent: {}
+[4.459424] (-) TimerEvent: {}
+[4.568197] (-) TimerEvent: {}
+[4.676917] (-) TimerEvent: {}
+[4.784735] (-) TimerEvent: {}
+[4.893471] (-) TimerEvent: {}
+[5.002217] (-) TimerEvent: {}
+[5.110918] (-) TimerEvent: {}
+[5.219619] (-) TimerEvent: {}
+[5.328308] (-) TimerEvent: {}
+[5.429954] (-) TimerEvent: {}
+[5.538647] (-) TimerEvent: {}
+[5.640451] (costmap_converter) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (find_package):\n'}
+[5.640601] (-) TimerEvent: {}
+[5.640707] (costmap_converter) StderrLine: {'line': b'  By not providing "Findcostmap_converter_msgs.cmake" in CMAKE_MODULE_PATH\n'}
+[5.640763] (costmap_converter) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[5.640792] (costmap_converter) StderrLine: {'line': b'  by "costmap_converter_msgs", but CMake did not find one.\n'}
+[5.640829] (costmap_converter) StderrLine: {'line': b'\n'}
+[5.640859] (costmap_converter) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[5.640887] (costmap_converter) StderrLine: {'line': b'  "costmap_converter_msgs" with any of the following names:\n'}
+[5.640915] (costmap_converter) StderrLine: {'line': b'\n'}
+[5.640939] (costmap_converter) StderrLine: {'line': b'    costmap_converter_msgsConfig.cmake\n'}
+[5.640964] (costmap_converter) StderrLine: {'line': b'    costmap_converter_msgs-config.cmake\n'}
+[5.640992] (costmap_converter) StderrLine: {'line': b'\n'}
+[5.641017] (costmap_converter) StderrLine: {'line': b'  Add the installation prefix of "costmap_converter_msgs" to\n'}
+[5.641041] (costmap_converter) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "costmap_converter_msgs_DIR" to a directory\n'}
+[5.641066] (costmap_converter) StderrLine: {'line': b'  containing one of the above files.  If "costmap_converter_msgs" provides a\n'}
+[5.641093] (costmap_converter) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[5.641118] (costmap_converter) StderrLine: {'line': b'\n'}
+[5.641142] (costmap_converter) StderrLine: {'line': b'\x1b[0m\n'}
+[5.641167] (costmap_converter) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.641201] (costmap_converter) StdoutLine: {'line': b'See also "/root/robot_navigation/src/build/costmap_converter/CMakeFiles/CMakeOutput.log".\n'}
+[5.644455] (costmap_converter) CommandEnded: {'returncode': 1}
+[5.679618] (costmap_converter) JobEnded: {'identifier': 'costmap_converter', 'rc': 1}
+[5.690189] (teb_local_planner) JobSkipped: {'identifier': 'teb_local_planner'}
+[5.690246] (-) EventReactorShutdown: {}

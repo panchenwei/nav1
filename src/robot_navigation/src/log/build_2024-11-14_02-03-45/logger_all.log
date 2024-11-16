@@ -1,0 +1,309 @@
+[0.554s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--packages-up-to', 'teb_local_planner', 'costmap_converter']
+[0.554s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['teb_local_planner', 'costmap_converter'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f555af43d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f555b3ea080>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f555b3ea080>>)
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.578s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/robot_navigation/src'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter) by extension 'ros'
+[0.588s] DEBUG:colcon.colcon_core.package_identification:Package 'costmap_converter' with type 'ros.ament_cmake' and name 'costmap_converter'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(costmap_converter_msgs) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'costmap_converter_msgs' with type 'ros.ament_cmake' and name 'costmap_converter_msgs'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(teb_local_planner) by extension 'ros'
+[0.591s] DEBUG:colcon.colcon_core.package_identification:Package 'teb_local_planner' with type 'ros.ament_cmake' and name 'teb_local_planner'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(teb_msgs) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'teb_msgs' with type 'ros.ament_cmake' and name 'teb_msgs'
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.655s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 428 installed packages in /opt/ros/humble
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_target' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.816s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_converter_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/robot_navigation/src/build/costmap_converter_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/robot_navigation/src/install/costmap_converter_msgs', 'merge_install': False, 'path': '/root/robot_navigation/src/costmap_converter_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'costmap_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'costmap_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/robot_navigation/src/build/costmap_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/robot_navigation/src/install/costmap_converter', 'merge_install': False, 'path': '/root/robot_navigation/src/costmap_converter', 'symlink_install': False, 'test_result_base': None}
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_target' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'teb_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.829s] DEBUG:colcon.colcon_core.verb:Building package 'teb_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/robot_navigation/src/build/teb_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/robot_navigation/src/install/teb_msgs', 'merge_install': False, 'path': '/root/robot_navigation/src/teb_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_target' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'teb_local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.836s] DEBUG:colcon.colcon_core.verb:Building package 'teb_local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/robot_navigation/src/build/teb_local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/robot_navigation/src/install/teb_local_planner', 'merge_install': False, 'path': '/root/robot_navigation/src/teb_local_planner', 'symlink_install': False, 'test_result_base': None}
+[0.842s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.850s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/robot_navigation/src/costmap_converter_msgs' with build type 'ament_cmake'
+[0.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/robot_navigation/src/costmap_converter_msgs'
+[0.865s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/robot_navigation/src/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter_msgs
+[2.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/robot_navigation/src/costmap_converter_msgs -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter_msgs
+[2.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/robot_navigation/src/build/costmap_converter_msgs -- -j32 -l32
+[6.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/robot_navigation/src/build/costmap_converter_msgs -- -j32 -l32
+[6.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/costmap_converter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/robot_navigation/src/build/costmap_converter_msgs
+[6.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_converter_msgs)
+[6.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/costmap_converter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/robot_navigation/src/build/costmap_converter_msgs
+[6.543s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs' for CMake module files
+[6.543s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs' for CMake config files
+[6.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'cmake_prefix_path')
+[6.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.ps1'
+[6.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.dsv'
+[6.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.sh'
+[6.553s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/lib'
+[6.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'ld_library_path_lib')
+[6.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.ps1'
+[6.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.dsv'
+[6.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.sh'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/bin'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/lib/pkgconfig/costmap_converter_msgs.pc'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/lib/python3.10/site-packages'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/bin'
+[6.567s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.ps1'
+[6.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv'
+[6.569s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.sh'
+[6.570s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.bash'
+[6.571s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.zsh'
+[6.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_navigation/src/install/costmap_converter_msgs/share/colcon-core/packages/costmap_converter_msgs)
+[6.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_converter_msgs)
+[6.625s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs' for CMake module files
+[6.626s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs' for CMake config files
+[6.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'cmake_prefix_path')
+[6.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.ps1'
+[6.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.dsv'
+[6.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/cmake_prefix_path.sh'
+[6.633s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/lib'
+[6.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter_msgs', 'ld_library_path_lib')
+[6.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.ps1'
+[6.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.dsv'
+[6.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/hook/ld_library_path_lib.sh'
+[6.641s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/bin'
+[6.641s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/lib/pkgconfig/costmap_converter_msgs.pc'
+[6.641s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/lib/python3.10/site-packages'
+[6.641s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter_msgs/bin'
+[6.648s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.ps1'
+[6.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.dsv'
+[6.649s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.sh'
+[6.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.bash'
+[6.650s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter_msgs/share/costmap_converter_msgs/package.zsh'
+[6.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_navigation/src/install/costmap_converter_msgs/share/colcon-core/packages/costmap_converter_msgs)
+[6.651s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/robot_navigation/src/costmap_converter' with build type 'ament_cmake'
+[6.651s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/robot_navigation/src/costmap_converter'
+[6.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.676s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/robot_navigation/src/teb_msgs' with build type 'ament_cmake'
+[6.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/robot_navigation/src/teb_msgs'
+[6.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/costmap_converter': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/robot_navigation/src/costmap_converter -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter
+[7.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/teb_msgs': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/robot_navigation/src/teb_msgs -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/teb_msgs
+[13.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/robot_navigation/src/teb_msgs -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/teb_msgs
+[13.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/teb_msgs': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/robot_navigation/src/build/teb_msgs -- -j32 -l32
+[15.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/robot_navigation/src/build/teb_msgs -- -j32 -l32
+[15.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/teb_msgs': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/robot_navigation/src/build/teb_msgs
+[15.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teb_msgs)
+[15.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/teb_msgs' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/robot_navigation/src/build/teb_msgs
+[15.870s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs' for CMake module files
+[15.871s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs' for CMake config files
+[15.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_msgs', 'cmake_prefix_path')
+[15.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.ps1'
+[15.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.dsv'
+[15.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.sh'
+[15.878s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/lib'
+[15.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_msgs', 'ld_library_path_lib')
+[15.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.ps1'
+[15.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.dsv'
+[15.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.sh'
+[15.886s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/bin'
+[15.886s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/lib/pkgconfig/teb_msgs.pc'
+[15.886s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/lib/python3.10/site-packages'
+[15.886s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/bin'
+[15.893s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.ps1'
+[15.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.dsv'
+[15.893s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.sh'
+[15.894s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.bash'
+[15.894s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.zsh'
+[15.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_navigation/src/install/teb_msgs/share/colcon-core/packages/teb_msgs)
+[15.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teb_msgs)
+[15.957s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs' for CMake module files
+[15.957s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs' for CMake config files
+[15.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_msgs', 'cmake_prefix_path')
+[15.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.ps1'
+[15.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.dsv'
+[15.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/cmake_prefix_path.sh'
+[15.966s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/lib'
+[15.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('teb_msgs', 'ld_library_path_lib')
+[15.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.ps1'
+[15.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.dsv'
+[15.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/hook/ld_library_path_lib.sh'
+[15.974s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/bin'
+[15.974s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/lib/pkgconfig/teb_msgs.pc'
+[15.974s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/lib/python3.10/site-packages'
+[15.974s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/teb_msgs/bin'
+[15.981s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.ps1'
+[15.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.dsv'
+[15.982s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.sh'
+[15.982s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.bash'
+[15.982s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/teb_msgs/share/teb_msgs/package.zsh'
+[15.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_navigation/src/install/teb_msgs/share/colcon-core/packages/teb_msgs)
+[21.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/robot_navigation/src/costmap_converter -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/costmap_converter
+[21.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/costmap_converter': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/robot_navigation/src/build/costmap_converter -- -j32 -l32
+[44.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/robot_navigation/src/build/costmap_converter -- -j32 -l32
+[44.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/costmap_converter': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/robot_navigation/src/build/costmap_converter
+[44.359s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_converter)
+[44.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/costmap_converter' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/robot_navigation/src/build/costmap_converter
+[44.374s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter' for CMake module files
+[44.374s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter' for CMake config files
+[44.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'cmake_prefix_path')
+[44.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/cmake_prefix_path.ps1'
+[44.383s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/cmake_prefix_path.dsv'
+[44.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/cmake_prefix_path.sh'
+[44.386s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/lib'
+[44.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'ld_library_path_lib')
+[44.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/ld_library_path_lib.ps1'
+[44.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/ld_library_path_lib.dsv'
+[44.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/ld_library_path_lib.sh'
+[44.394s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/bin'
+[44.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'path')
+[44.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/path.ps1'
+[44.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/path.dsv'
+[44.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/path.sh'
+[44.402s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/lib/pkgconfig/costmap_converter.pc'
+[44.403s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/lib/python3.10/site-packages'
+[44.403s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/bin'
+[44.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'pythonscriptspath')
+[44.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/pythonscriptspath.ps1'
+[44.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/pythonscriptspath.dsv'
+[44.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/pythonscriptspath.sh'
+[44.418s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.ps1'
+[44.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.dsv'
+[44.419s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.sh'
+[44.419s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.bash'
+[44.420s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.zsh'
+[44.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_navigation/src/install/costmap_converter/share/colcon-core/packages/costmap_converter)
+[44.457s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(costmap_converter)
+[44.463s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter' for CMake module files
+[44.463s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter' for CMake config files
+[44.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'cmake_prefix_path')
+[44.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/cmake_prefix_path.ps1'
+[44.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/cmake_prefix_path.dsv'
+[44.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/cmake_prefix_path.sh'
+[44.470s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/lib'
+[44.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'ld_library_path_lib')
+[44.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/ld_library_path_lib.ps1'
+[44.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/ld_library_path_lib.dsv'
+[44.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/ld_library_path_lib.sh'
+[44.477s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/bin'
+[44.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'path')
+[44.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/path.ps1'
+[44.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/path.dsv'
+[44.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/path.sh'
+[44.484s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/lib/pkgconfig/costmap_converter.pc'
+[44.484s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/lib/python3.10/site-packages'
+[44.484s] Level 1:colcon.colcon_core.environment:checking '/root/robot_navigation/src/install/costmap_converter/bin'
+[44.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('costmap_converter', 'pythonscriptspath')
+[44.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/pythonscriptspath.ps1'
+[44.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/pythonscriptspath.dsv'
+[44.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/hook/pythonscriptspath.sh'
+[44.498s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.ps1'
+[44.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.dsv'
+[44.499s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.sh'
+[44.499s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.bash'
+[44.499s] INFO:colcon.colcon_core.shell:Creating package script '/root/robot_navigation/src/install/costmap_converter/share/costmap_converter/package.zsh'
+[44.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/robot_navigation/src/install/costmap_converter/share/colcon-core/packages/costmap_converter)
+[44.500s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/robot_navigation/src/teb_local_planner' with build type 'ament_cmake'
+[44.500s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/robot_navigation/src/teb_local_planner'
+[44.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[45.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/teb_local_planner': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/teb_msgs:/root/robot_navigation/src/install/costmap_converter:/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/teb_msgs:/root/robot_navigation/src/install/costmap_converter:/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/teb_msgs/lib:/root/robot_navigation/src/install/costmap_converter/lib:/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/robot_navigation/src/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/robot_navigation/src/install/teb_msgs/local/lib/python3.10/dist-packages:/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/robot_navigation/src/teb_local_planner -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/teb_local_planner
+[62.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/robot_navigation/src/build/teb_local_planner' returned '0': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/teb_msgs:/root/robot_navigation/src/install/costmap_converter:/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/teb_msgs:/root/robot_navigation/src/install/costmap_converter:/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/teb_msgs/lib:/root/robot_navigation/src/install/costmap_converter/lib:/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/robot_navigation/src/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/robot_navigation/src/install/teb_msgs/local/lib/python3.10/dist-packages:/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/robot_navigation/src/teb_local_planner -DCMAKE_INSTALL_PREFIX=/root/robot_navigation/src/install/teb_local_planner
+[62.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/robot_navigation/src/build/teb_local_planner': AMENT_PREFIX_PATH=/root/robot_navigation/src/install/teb_msgs:/root/robot_navigation/src/install/costmap_converter:/root/robot_navigation/src/install/costmap_converter_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/robot_navigation/src/install/teb_msgs:/root/robot_navigation/src/install/costmap_converter:/root/robot_navigation/src/install/costmap_converter_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/robot_navigation/src/install/teb_msgs/lib:/root/robot_navigation/src/install/costmap_converter/lib:/root/robot_navigation/src/install/costmap_converter_msgs/lib:${LD_LIBRARY_PATH} PATH=/root/robot_navigation/src/install/costmap_converter/bin:${PATH} PYTHONPATH=/root/robot_navigation/src/install/teb_msgs/local/lib/python3.10/dist-packages:/root/robot_navigation/src/install/costmap_converter_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/robot_navigation/src/build/teb_local_planner -- -j32 -l32
